@@ -1,0 +1,32 @@
+video {
+  width:90%;
+  padding-top: 11px;
+  display: block;  /* This and next line to center the video environment */
+  margin: auto;
+}
+.center{
+ text-align: center;
+}
+
+
+.videoWrapper{
+margin: 0 auto;
+width: 90%;
+}
+
+.iframeWrapper{
+position: relative;
+height: 0px;
+padding-bottom: 56.25%;
+padding-top: 25px;
+}
+
+.iframeWrapper iframe{
+position: absolute;
+left: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+height: 100%;
+width: 100%;
+}
